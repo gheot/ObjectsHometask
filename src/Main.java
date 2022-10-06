@@ -8,5 +8,12 @@ public class Main {
         System.out.println(beliyKlik.bookInfo());
         mumu.setPublishYear(2010);
         System.out.println(mumu.bookInfo());
+
+
+        System.out.println();
+        System.out.println(mumu.toString());
+        System.out.println(beliyKlik);
+        System.out.println(beliyKlik.hashCode() == mumu.hashCode());
+        System.out.println(mumu.equals(beliyKlik));
     }
 }
